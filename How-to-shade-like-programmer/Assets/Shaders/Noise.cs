@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class Noise : MonoBehaviour
 {
-    [SerializeField] Material mat;
+    [SerializeField] private Material mat = null;
     [SerializeField] int width_ = 346;
     [SerializeField] int heigh_ = 864;
 
